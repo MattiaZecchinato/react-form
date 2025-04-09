@@ -32,14 +32,19 @@ main
   padding: 50px 60px;
 }
 
-.main-box button {
+button {
+
+  cursor: pointer;
+}
+
+.add-btn {
 
   background-color: #0D6EFD;
   border: none;
   border-radius: 5px;
   color: #fff;
   padding: 10px 10px;
-  cursor: pointer;
+  
 }
 
 .main-box form input {
