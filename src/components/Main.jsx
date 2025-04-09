@@ -13,16 +13,19 @@ export default function Main({ articles }) {
 
         e.preventDefault();
 
+        // check if newArticle is empty
+        if (newArticle === '') return
+
         const updateArticle = [...articlesList, newArticle];
         setArticles(updateArticle);
 
     }
 
-    return <>
+    return <div className='main-box'>
         <ul>
             {articlesList.map((art, i) => <li key={i}>{art}</li>)}
         </ul>
 
-        <Form addArticle={addArticle} setNewArticle={setNewArticle} />
-    </>
+        <Form addArticle={addArticle} setNewArticle={setNewArticle} newArticle={newArticle} />
+    </div>
 }

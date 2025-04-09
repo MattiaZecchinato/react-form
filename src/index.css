@@ -1,0 +1,48 @@
+/******* 
+reset 
+*******/
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/******* 
+header 
+*******/
+.title-box {
+
+  padding: 15px 10px;
+  background-color: #F8F9FA;
+}
+
+.title-box h1 {
+
+  font-size: 3rem;
+}
+
+/******* 
+main 
+*******/
+.main-box {
+
+  display: flex;
+  gap: 50px;
+  padding: 50px 60px;
+}
+
+.main-box button {
+
+  background-color: #0D6EFD;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.main-box form input {
+
+  margin-right: 20px;
+}
